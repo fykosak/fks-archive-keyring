@@ -15,6 +15,8 @@ install:
 	cp fks-archive-keyring.gpg $(DST_keyring)/
 
 fks-archive-keyring.gpg: keys/fks.pub
+	# make space for GPG temporary files and gpg-agent socket
+	mkdir -p ~/.gnupg
 	gpg --no-default-keyring --keyring ./$@ --trust-model always --import $<
 	rm $@~
 
