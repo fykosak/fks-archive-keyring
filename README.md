@@ -2,6 +2,10 @@
 
 GnuPG keyring for fks archive.
 
+## Key rotation
+
+Download new [key](https://build.opensuse.org/projects/home:mkoutny:fykos/public_key) to `keys/fks.pub`.
+
 ## Packaging
 
 Packages for Linux distributions are built in [Open Build Service](http://build.opensuse.org/).
