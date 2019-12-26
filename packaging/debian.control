@@ -2,7 +2,7 @@ Source: fks-archive-keyring
 Section: misc
 Priority: optional
 Maintainer: FKS TeX group <tex@fykos.cz>
-Build-Depends: debhelper (>=9), make (>=3.8), wget, gnupg (>=2)
+Build-Depends: debhelper (>=9), make (>=3.8), wget, gnupg
 Standards-Version: 3.9.6
 Homepage: https://github.com/fykosak/fks-archive-keyring
 

@@ -8,7 +8,7 @@ build: fks-archive-keyring.gpg
 	true
 
 clean:
-	rm fks-archive-keyring.gpg fks.pub
+	rm fks-archive-keyring.gpg fks.pub || true
 
 install:
 	mkdir -p $(DST_list)
