@@ -3,6 +3,7 @@ DST_list=$(DESTDIR)/etc/apt/sources.list.d
 DST_keyring=$(DESTDIR)/usr/share/keyrings
 
 build: fks-archive-keyring.gpg
+	printenv
 	true
 
 clean:
